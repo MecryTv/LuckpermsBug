@@ -1,0 +1,650 @@
+[18:59:08] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.5+9-LTS-239; Oracle Corporation null) on Linux 6.1.0-26-amd64 (amd64)
+[18:59:08] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[18:59:08] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:59:09] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[18:59:09] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - SimpleCloud-Signs (1.0)
+[18:59:09] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+ - LuckPerms (5.4.152), SimpleCloud-NPC (1.0), SimpleCloud-Placeholder (1.0), SimpleCloud-Player (1.0)
+[18:59:11] [ServerMain/INFO]: [app.simplecloud.plugin.sign.paper.PaperSignsPluginBootstrap] Successfully bootstrapped PaperSignsPlugin
+[18:59:15] [ServerMain/INFO]: [STDERR]: You have used the Spigot command line EULA agreement flag.
+[18:59:15] [ServerMain/INFO]: [STDERR]: By using this setting you are indicating your agreement to Mojang's EULA (https://account.mojang.com/documents/minecraft_eula).
+[18:59:15] [ServerMain/INFO]: [STDERR]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[18:59:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:59:17] [ServerMain/INFO]: Loaded 1290 recipes
+[18:59:17] [ServerMain/INFO]: Loaded 1399 advancements
+[18:59:17] [Server thread/INFO]: Starting minecraft server version 1.21
+[18:59:17] [Server thread/WARN]: ****************************
+[18:59:17] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[18:59:17] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[18:59:17] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[18:59:17] [Server thread/WARN]: ****************************
+[18:59:17] [Server thread/INFO]: Loading properties
+[18:59:17] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[18:59:18] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:59:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:59:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:59:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and population gen parallelism of 3 threads
+[18:59:18] [Server thread/INFO]: Default game type: SURVIVAL
+[18:59:18] [Server thread/INFO]: Generating keypair
+[18:59:18] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:50001
+[18:59:18] [Server thread/INFO]: Using epoll channel type
+[18:59:18] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:59:18] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[18:59:18] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/placeholders-paper.jar' in 'plugins/.paper-remapped'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [PlaceholderAPI]. Please download and install these plugins to run 'SimpleCloud-Placeholder'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[18:59:18] [Server thread/INFO]: [SpigotLibraryLoader] [SimpleCloud-Player] Loading 1 libraries... please wait
+[18:59:19] [Server thread/INFO]: [SpigotLibraryLoader] [SimpleCloud-Player] Loaded library /home/minecraft/running/static/lobby/lobby-3/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0/kotlinx-coroutines-core-1.9.0.jar
+[18:59:19] [Server thread/INFO]: [SpigotLibraryLoader] [SimpleCloud-Player] Loaded library /home/minecraft/running/static/lobby/lobby-3/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0/kotlinx-coroutines-core-jvm-1.9.0.jar
+[18:59:19] [Server thread/INFO]: [SpigotLibraryLoader] [SimpleCloud-Player] Loaded library /home/minecraft/running/static/lobby/lobby-3/libraries/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar
+[18:59:19] [Server thread/INFO]: [SpigotLibraryLoader] [SimpleCloud-Player] Loaded library /home/minecraft/running/static/lobby/lobby-3/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.0.0/kotlin-stdlib-2.0.0.jar
+[18:59:20] [Server thread/INFO]: [SimpleCloud-NPC] Loading server plugin SimpleCloud-NPC v1.0
+[18:59:20] [Server thread/INFO]: [SimpleCloud-Player] Loading server plugin SimpleCloud-Player v1.0
+[18:59:20] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.152
+[18:59:20] [Server thread/INFO]: [SimpleCloud-Signs] Loading server plugin SimpleCloud-Signs v1.0
+[18:59:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:59:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.152
+[18:59:20] [Server thread/INFO]:         __    
+[18:59:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.152
+[18:59:20] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:59:20] [Server thread/INFO]: 
+[18:59:20] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:59:20] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
+[18:59:20] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Starting...
+[18:59:20] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Start completed.
+[18:59:30] [Server thread/ERROR]: [LuckPerms] Failed to init storage implementation
+java.sql.SQLTransientConnectionException: luckperms-hikari - Connection is not available, request timed out after 10000ms.
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.getConnection(HikariPool.java:197) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.getConnection(HikariPool.java:162) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.HikariDataSource.getConnection(HikariDataSource.java:100) ~[?:?]
+	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:169) ~[?:?]
+	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.init(SqlStorage.java:170) ~[?:?]
+	at me.lucko.luckperms.common.storage.Storage.init(Storage.java:90) ~[?:?]
+	at me.lucko.luckperms.common.storage.StorageFactory.getInstance(StorageFactory.java:87) ~[?:?]
+	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:202) ~[?:?]
+	at me.lucko.luckperms.bukkit.LPBukkitBootstrap.onEnable(LPBukkitBootstrap.java:175) ~[?:?]
+	at LuckPerms-Bukkit-5.4.152.jar/me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin.onEnable(BukkitLoaderPlugin.java:50) ~[LuckPerms-Bukkit-5.4.152.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:293) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	... 1 more
+Caused by: me.lucko.luckperms.lib.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	... 1 more
+[18:59:30] [Server thread/INFO]: [LuckPerms] Loading messaging service... [SQL]
+[18:59:40] [Server thread/ERROR]: [LuckPerms] Exception occurred whilst enabling SQL messaging service
+java.lang.RuntimeException: java.sql.SQLTransientConnectionException: luckperms-hikari - Connection is not available, request timed out after 10000ms.
+	at me.lucko.luckperms.common.messaging.sql.SqlMessenger.init(SqlMessenger.java:56) ~[?:?]
+	at me.lucko.luckperms.common.messaging.MessagingFactory$SqlMessengerProvider.obtain(MessagingFactory.java:263) ~[?:?]
+	at me.lucko.luckperms.common.messaging.LuckPermsMessagingService.<init>(LuckPermsMessagingService.java:75) ~[?:?]
+	at me.lucko.luckperms.common.messaging.MessagingFactory.getServiceFor(MessagingFactory.java:143) ~[?:?]
+	at me.lucko.luckperms.bukkit.messaging.BukkitMessagingFactory.getServiceFor(BukkitMessagingFactory.java:62) ~[?:?]
+	at me.lucko.luckperms.common.messaging.MessagingFactory.getInstance(MessagingFactory.java:102) ~[?:?]
+	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:203) ~[?:?]
+	at me.lucko.luckperms.bukkit.LPBukkitBootstrap.onEnable(LPBukkitBootstrap.java:175) ~[?:?]
+	at LuckPerms-Bukkit-5.4.152.jar/me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin.onEnable(BukkitLoaderPlugin.java:50) ~[LuckPerms-Bukkit-5.4.152.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:293) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.sql.SQLTransientConnectionException: luckperms-hikari - Connection is not available, request timed out after 10000ms.
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.getConnection(HikariPool.java:197) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.getConnection(HikariPool.java:162) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.HikariDataSource.getConnection(HikariDataSource.java:100) ~[?:?]
+	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:169) ~[?:?]
+	at me.lucko.luckperms.common.messaging.sql.SqlMessenger.getConnection(SqlMessenger.java:84) ~[?:?]
+	at me.lucko.luckperms.common.messaging.sql.AbstractSqlMessenger.init(AbstractSqlMessenger.java:60) ~[?:?]
+	at me.lucko.luckperms.common.messaging.sql.SqlMessenger.init(SqlMessenger.java:54) ~[?:?]
+	... 18 more
+Caused by: me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	... 1 more
+Caused by: me.lucko.luckperms.lib.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	... 1 more
+[18:59:40] [Server thread/WARN]: [LuckPerms] Messaging service 'sql' not recognised.
+[18:59:40] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:59:40] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:59:50] [Server thread/WARN]: java.util.concurrent.CompletionException: java.sql.SQLTransientConnectionException: luckperms-hikari - Connection is not available, request timed out after 10000ms.
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.common.util.AsyncInterface.lambda$future$1(AsyncInterface.java:66)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+[18:59:50] [Server thread/WARN]: Caused by: java.sql.SQLTransientConnectionException: luckperms-hikari - Connection is not available, request timed out after 10000ms.
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:169)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.loadAllGroups(SqlStorage.java:533)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.common.storage.Storage.lambda$loadAllGroups$10(Storage.java:178)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.common.util.AsyncInterface.lambda$future$1(AsyncInterface.java:61)
+[18:59:50] [Server thread/WARN]: 	... 7 more
+[18:59:50] [Server thread/WARN]: Caused by: me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[18:59:50] [Server thread/WARN]: Caused by: me.lucko.luckperms.lib.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+[18:59:50] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.NativeSession.connect(NativeSession.java:144)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+[18:59:50] [Server thread/WARN]: 	... 14 more
+[18:59:50] [Server thread/WARN]: Caused by: java.net.ConnectException: Connection refused
+[18:59:50] [Server thread/WARN]: 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+[18:59:50] [Server thread/WARN]: 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+[18:59:50] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+[18:59:50] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[18:59:50] [Server thread/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:751)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+[18:59:50] [Server thread/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+[18:59:50] [Server thread/WARN]: 	... 17 more
+[18:59:50] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 30659ms)
+[18:59:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:59:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:59:50] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[18:59:50] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[18:59:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:59:50] [Server thread/INFO]: Preparing level "world"
+[18:59:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:59:51] [Server thread/INFO]: Time elapsed: 549 ms
+[18:59:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:59:51] [Server thread/INFO]: Time elapsed: 72 ms
+[18:59:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:59:51] [Server thread/INFO]: Time elapsed: 61 ms
+[18:59:51] [Server thread/INFO]: [SimpleCloud-NPC] Enabling SimpleCloud-NPC v1.0
+[18:59:52] [Server thread/WARN]: [SimpleCloud-NPC] No supported NPC software was found on the server. Find the supported plugins at https://docs.simplecloud.app/plugin/npcs#usage-of-other-npc-plugins
+[18:59:52] [Server thread/ERROR]: Error occurred while enabling SimpleCloud-NPC v1.0 (Is it up to date?)
+java.lang.NullPointerException: failed to find npc namespace
+	at npc-paper.jar/app.simplecloud.npc.plugin.paper.PaperPlugin.loadNamespace(PaperPlugin.kt:40) ~[npc-paper.jar:?]
+	at npc-paper.jar/app.simplecloud.npc.plugin.paper.PaperPlugin.onEnable(PaperPlugin.kt:26) ~[npc-paper.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[18:59:52] [Server thread/INFO]: [SimpleCloud-NPC] Disabling SimpleCloud-NPC v1.0
+[18:59:52] [Server thread/INFO]: [SimpleCloud-Player] Enabling SimpleCloud-Player v1.0
+[18:59:53] [Server thread/INFO]: [SimpleCloud-Signs] Enabling SimpleCloud-Signs v1.0
+[18:59:53] [Server thread/INFO]: [app.simplecloud.plugin.sign.shared.SignManager] Starting SignManager
+[18:59:53] [Server thread/INFO]: [app.simplecloud.plugin.sign.shared.SignManager] Loaded 6 Sign Layouts
+[18:59:53] [Server thread/INFO]: [spark] Starting background profiler...
+[18:59:54] [Server thread/INFO]: Done preparing level "world" (3.876s)
+[18:59:54] [Server thread/INFO]: Running delayed init tasks
+[18:59:54] [Server thread/INFO]: Done (47.188s)! For help, type "help"
+[18:59:54] [Server thread/INFO]: Timings Reset
+[19:01:07] [User Authenticator #0/ERROR]: [LuckPerms] Exception occurred whilst loading data for 01d39ab1-3a02-451d-8ec3-caedd3824fa4 - MecryTv
+java.util.concurrent.CompletionException: java.sql.SQLTransientConnectionException: luckperms-hikari - Connection is not available, request timed out after 10000ms.
+	at me.lucko.luckperms.common.util.AsyncInterface.lambda$future$0(AsyncInterface.java:53) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.sql.SQLTransientConnectionException: luckperms-hikari - Connection is not available, request timed out after 10000ms.
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.getConnection(HikariPool.java:197) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.getConnection(HikariPool.java:162) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.HikariDataSource.getConnection(HikariDataSource.java:100) ~[?:?]
+	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:169) ~[?:?]
+	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:680) ~[?:?]
+	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:242) ~[?:?]
+	at me.lucko.luckperms.common.util.AsyncInterface.lambda$future$0(AsyncInterface.java:48) ~[?:?]
+	... 7 more
+Caused by: me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: me.lucko.luckperms.lib.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[19:01:07] [User Authenticator #0/INFO]: Disconnecting MecryTv (/109.43.243.95:53890): [LP] A database error occurred whilst loading permissions data. Please try again later. If you are a server admin, please check the console for any errors.
+[19:01:07] [User Authenticator #0/INFO]: UUID of player MecryTv is 01d39ab1-3a02-451d-8ec3-caedd3824fa4
+[19:01:07] [Server thread/INFO]: MecryTv (/109.43.243.95:53890) lost connection: [LP] A database error occurred whilst loading permissions data. Please try again later. If you are a server admin, please check the console for any errors.
+[19:01:07] [luckperms-command-executor/INFO]: [LP] Running LuckPerms v5.4.152.
+[19:01:07] [luckperms-command-executor/INFO]: > /lp user <user>
+[19:01:07] [luckperms-command-executor/INFO]: > /lp group <group>
+[19:01:07] [luckperms-command-executor/INFO]: > /lp track <track>
+[19:01:07] [luckperms-command-executor/INFO]: > /lp log
+[19:01:07] [luckperms-command-executor/INFO]: > /lp sync
+[19:01:07] [luckperms-command-executor/INFO]: > /lp info
+[19:01:07] [luckperms-command-executor/INFO]: > /lp editor [type]
+[19:01:07] [luckperms-command-executor/INFO]: > /lp verbose <on|record|off|upload> [filter]
+[19:01:07] [luckperms-command-executor/INFO]: > /lp tree [scope] [player]
+[19:01:07] [luckperms-command-executor/INFO]: > /lp search <permission>
+[19:01:07] [luckperms-command-executor/INFO]: > /lp networksync
+[19:01:07] [luckperms-command-executor/INFO]: > /lp import <file>
+[19:01:07] [luckperms-command-executor/INFO]: > /lp export <file>
+[19:01:07] [luckperms-command-executor/INFO]: > /lp reloadconfig
+[19:01:07] [luckperms-command-executor/INFO]: > /lp bulkupdate
+[19:01:07] [luckperms-command-executor/INFO]: > /lp translations
+[19:01:07] [luckperms-command-executor/INFO]: > /lp creategroup <group>
+[19:01:07] [luckperms-command-executor/INFO]: > /lp deletegroup <group>
+[19:01:07] [luckperms-command-executor/INFO]: > /lp listgroups
+[19:01:07] [luckperms-command-executor/INFO]: > /lp createtrack <track>
+[19:01:07] [luckperms-command-executor/INFO]: > /lp deletetrack <track>
+[19:01:07] [luckperms-command-executor/INFO]: > /lp listtracks
+[19:01:31] [luckperms-worker-6/WARN]: [LuckPerms] Command execution [user, MecryTv, permission, add, *] has not completed. Trace: 
+  java.base/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+  java.base/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+  java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+  java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+  java.base/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+  java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+  me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.lookupUniqueId(AbstractLuckPermsPlugin.java:429)
+  me.lucko.luckperms.common.commands.user.UserParentCommand.parseTargetUniqueId(UserParentCommand.java:91)
+  me.lucko.luckperms.common.commands.user.UserParentCommand.parseTarget(UserParentCommand.java:102)
+  me.lucko.luckperms.common.commands.user.UserParentCommand.parseTarget(UserParentCommand.java:54)
+  me.lucko.luckperms.common.command.abstraction.ParentCommand.execute(ParentCommand.java:91)
+  me.lucko.luckperms.common.command.abstraction.ParentCommand.execute(ParentCommand.java:44)
+  me.lucko.luckperms.common.command.CommandManager.execute(CommandManager.java:280)
+  me.lucko.luckperms.common.command.CommandManager.lambda$executeCommand$1(CommandManager.java:184)
+  java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+  java.base/java.lang.Thread.run(Thread.java:1583)
+[19:01:31] [luckperms-command-executor/WARN]: java.util.concurrent.CompletionException: java.sql.SQLTransientConnectionException: luckperms-hikari - Connection is not available, request timed out after 10000ms.
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.util.AsyncInterface.lambda$future$0(AsyncInterface.java:53)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+[19:01:31] [luckperms-command-executor/WARN]: Caused by: java.sql.SQLTransientConnectionException: luckperms-hikari - Connection is not available, request timed out after 10000ms.
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:169)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.getPlayerUniqueId(SqlStorage.java:744)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.storage.Storage.lambda$getPlayerUniqueId$22(Storage.java:255)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.util.AsyncInterface.lambda$future$0(AsyncInterface.java:48)
+[19:01:31] [luckperms-command-executor/WARN]: 	... 7 more
+[19:01:31] [luckperms-command-executor/WARN]: Caused by: me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[19:01:31] [luckperms-command-executor/WARN]: Caused by: me.lucko.luckperms.lib.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.NativeSession.connect(NativeSession.java:144)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+[19:01:31] [luckperms-command-executor/WARN]: 	... 14 more
+[19:01:31] [luckperms-command-executor/WARN]: Caused by: java.net.ConnectException: Connection refused
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[19:01:31] [luckperms-command-executor/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:751)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+[19:01:31] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+[19:01:31] [luckperms-command-executor/WARN]: 	... 17 more
+[19:01:46] [User Authenticator #0/ERROR]: [LuckPerms] Exception occurred whilst loading data for 01d39ab1-3a02-451d-8ec3-caedd3824fa4 - MecryTv
+java.util.concurrent.CompletionException: java.sql.SQLTransientConnectionException: luckperms-hikari - Connection is not available, request timed out after 10000ms.
+	at me.lucko.luckperms.common.util.AsyncInterface.lambda$future$0(AsyncInterface.java:53) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.sql.SQLTransientConnectionException: luckperms-hikari - Connection is not available, request timed out after 10000ms.
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.getConnection(HikariPool.java:197) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.getConnection(HikariPool.java:162) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.HikariDataSource.getConnection(HikariDataSource.java:100) ~[?:?]
+	at me.lucko.luckperms.common.storage.implementation.sql.connection.hikari.HikariConnectionFactory.getConnection(HikariConnectionFactory.java:169) ~[?:?]
+	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:680) ~[?:?]
+	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:242) ~[?:?]
+	at me.lucko.luckperms.common.util.AsyncInterface.lambda$future$0(AsyncInterface.java:48) ~[?:?]
+	... 7 more
+Caused by: me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: me.lucko.luckperms.lib.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[?:?]
+	at me.lucko.luckperms.lib.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[?:?]
+	at me.lucko.luckperms.lib.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[19:01:46] [User Authenticator #0/INFO]: Disconnecting MecryTv (/109.43.243.95:46852): [LP] A database error occurred whilst loading permissions data. Please try again later. If you are a server admin, please check the console for any errors.
+[19:01:46] [User Authenticator #0/INFO]: UUID of player MecryTv is 01d39ab1-3a02-451d-8ec3-caedd3824fa4
+[19:01:46] [Server thread/INFO]: MecryTv (/109.43.243.95:46852) lost connection: [LP] A database error occurred whilst loading permissions data. Please try again later. If you are a server admin, please check the console for any errors.
